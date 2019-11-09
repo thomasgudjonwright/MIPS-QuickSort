@@ -1,11 +1,7 @@
-#studentName:	Thomas Wright
-#studentID:	260769898
-
-# This MIPS program should sort a set of numbers using the quicksort algorithm
-# The program should use MMIO
+# Sorts a set of numbers using the quicksort algorithm
+# The program uses MMIO
 
 .data
-#any any data you need be after this line
 welcome: .asciiz "Welcome to QuickSort! Please enter your array and a command.\n"
 thesort: .asciiz "\nThe sorted array is:  "
 reanit: .asciiz "\nThe array has been reinitialized!\n"
